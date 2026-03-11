@@ -31,3 +31,21 @@ http://127.0.0.1:8000/
 Se puede acceder al panel de administración en:
 
 http://127.0.0.1:8000/admin
+
+## Instalación del proyecto
+
+1 Crear entorno virtual
+
+python -m venv venv
+
+2 Activar entorno virtual
+
+venv\Scripts\activate
+
+3 Instalar dependencias
+
+pip install -r requirements.txt
+
+4 Ejecutar servidor
+
+python manage.py runserver
